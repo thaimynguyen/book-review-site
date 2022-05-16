@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+}
+
+nav a {
+    flex: 0%;
+}
+
+section>img,
+section>button,
+section>a {
+    width: 100%;
+    display: inline-block;
+}
