@@ -4,48 +4,60 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Book Review Site</title>
+    <title>Ruby Book Review Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/resources/CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-<nav>
-    <ul>
-        <li><a href="index.html">Homepage</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
 
-</nav>
+<header>
+    <h1><a href="index.html">The Ruby Reviews</a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<body>
-    <h3>Top 5 Ruby books</h3>
-    <section>
-        <a href="https://www.goodreads.com/book/show/14438307-clean-ruby"><img src="images/cover-clean_ruby.jpg"></a>
-        <p><a href="">Clean Ruby</a></p>
-    </section>
-    <section>
-        <a href="https://www.amazon.com/Confident-Ruby-Patterns-Joyful-Coding-ebook/dp/B00ETE0D2S"><img
-                src="images/cover-confident_ruby.jpg"></a>
-        <p><a href="">Confident Ruby</a></p>
-    </section>
-    <section>
-        <a href="https://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104"><img
-                src="images/cover-eloquent_ruby.jpg"></a>
-        <p><a href="eloquent-ruby.html">Eloquent Ruby</a></p>
-    </section>
+<main>
+    <div class="content">
+        <h3> -- Top 5 Ruby books -- </h3>
+        <ul class="top-5-reviews">
+            <li>
+                <a href="https://www.goodreads.com/book/show/14438307-clean-ruby">
+                    <img src="images/cover-clean_ruby.jpg"></a>
+                <p><a href="">Clean Ruby</a></p>
+            </li>
+            <li>
+                <a href="https://www.amazon.com/Confident-Ruby-Patterns-Joyful-Coding-ebook/dp/B00ETE0D2S">
+                    <img src="images/cover-confident_ruby.jpg"></a>
+                <p><a href="">Confident Ruby</a></p>
+            </li>
+            <li>
+                <a href="https://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104">
+                    <img src="images/cover-eloquent_ruby.jpg"></a>
+                <p><a href="eloquent-ruby.html">Eloquent Ruby</a></p>
+            </li>
 
-    <section>
-        <a href="https://www.goodreads.com/book/show/16720439-ruby-science"><img
-                src="images/cover-ruby_science.jpg"></a>
-        <p><a href="">Ruby Science</a></p>
-    </section>
-    <section>
-        <a href="https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617295213"><img
-                src="images/cover-well_grounded_rubyist.jpg"></a>
-        <p><a href="">Well-grounded Rubyist</a></p>
-    </section>
-</body>
-<footer>
-    <p>&#169;Amy Nguyen | Ada Developers Academy 2022 (cohort 17) </p>
-</footer>
+            <li>
+                <a href="https://www.goodreads.com/book/show/16720439-ruby-science"><img
+                        src="images/cover-ruby_science.jpg"></a>
+                <p><a href="">Ruby Science</a></p>
+            </li>
+            <li>
+                <a href="https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617295213">
+                    <img src="images/cover-well_grounded_rubyist.jpg"></a>
+                <p><a href="">Well-grounded Rubyist</a></p>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p>&#169;Amy Nguyen | Ada Developers Academy 2022 (cohort 17) </p>
+    </footer>
+</main>
+
 
 </html>
